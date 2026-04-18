@@ -1,0 +1,22 @@
+{
+  "name": "nexus-bridge",
+  "version": "1.0.0",
+  "description": "Real-time bridge for WhatsApp, Instagram, and Email integration",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "imap": "^0.8.17",
+    "instagram-private-api": "^1.45.3",
+    "mailparser": "^3.6.5",
+    "nodemailer": "^6.10.1",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
